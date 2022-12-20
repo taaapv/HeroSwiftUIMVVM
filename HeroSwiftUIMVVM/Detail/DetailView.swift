@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct DetailView: View {
-    @StateObject var viewModel: DetailViewModel
+    @ObservedObject var viewModel: DetailViewModel
     
     var body: some View {
         VStack(spacing: 20) {
